@@ -1,0 +1,22 @@
+.container{
+    width: 1000px;
+    height:460px;
+    border:5px solid black;
+    display:flex;
+    flex-direction: row;
+    text-indent: 10px;
+}
+
+.box1{
+    width:650px;
+    height:650px;
+    display:flex;
+    flex-direction: column;
+}
+
+.box2{
+    width:350px;
+    height:460px;
+    align-content: center;
+    
+}
