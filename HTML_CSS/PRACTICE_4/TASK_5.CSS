@@ -1,0 +1,46 @@
+#seven{
+    width:1000px;
+    height: 590px;
+    border:5px solid black;
+    /* background: linear-gradient(to top,white,gray); */
+    text-indent: 30px;
+    
+}
+
+#eight{
+    width:990px;
+    height:20px;
+    background-color:black;
+    text-indent: 0%;    
+}
+
+#nine{
+    width:1000px;
+    height:340px;
+    flex-direction: row;
+    gap:380px;
+}
+
+#hi{
+    text-indent: 0%;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+#nine p{padding-right:200px;}
+
+#ten{
+    
+    text-indent: 0%;
+    margin-left: 40px;
+    margin-right: 200px;
+}
+
+.head{
+    width:990px;
+    height:60px;
+    background-color: lightgrey;
+    padding-top: 10px;    
+    line-height: 0%;
+}
