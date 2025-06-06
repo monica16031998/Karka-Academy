@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width:800px;
+            height:460px;
+            border:1px solid black;
+            margin:auto;
+            font-size: 30px;
+        }
+
+        #box1{
+            width:100%;
+            height:50px;
+            border-bottom:1px solid black;
+        }
+
+        #box3{
+            width:100%;
+            height:50px;
+        }
+
+        #box1, #box5, #box4, #box3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box2{
+            width:100%;
+            height:300px;
+            flex-direction: row;
+        }
+        
+        #box5{
+            width:200px;
+            height:300px;
+            border-bottom:1px solid black;
+        
+        }
+        #box4{
+            width:100%;
+            height:300px;
+            border-bottom:1px solid black;
+            border-left:1px solid black;
+            /* background-color: pink; */
+        }
+
+    </style>
+</head>
+<body>
+    <b>
+    <div class="container">
+        <div id="box1">Header Section</div>
+        <div id="box1">Navigation Bar</div>
+        <div class="box2" style="display: flex;">
+            <div id="box5">Index</div>
+            <div id="box4">Content Section</div>
+        </div>
+        <div id="box3">Footer Section</div>
+    </div>
+    </b>
+</body>
+</html>
