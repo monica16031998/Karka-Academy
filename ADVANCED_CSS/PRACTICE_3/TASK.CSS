@@ -1,0 +1,163 @@
+.container{
+    flex-direction: column;
+    width:800px;
+    height:1200px;
+    margin:auto;
+    position: relative;
+}
+
+.head{
+    width:800px;
+    height:70px;
+    background-color:white;
+    flex-direction: row;
+}
+
+.half1{
+    width:400px;
+}
+.half{
+    width:400px;
+}
+
+.box1{
+    width:800px;
+    height:350px;
+}
+#l1{
+    color:white;
+    position: absolute;
+    top:80px;
+    left:220px;
+}
+
+#l2{
+    color:white;
+    position: absolute;
+    top:240px;
+    left:120px;
+    width:130px;
+    height:30px;
+    text-align: center;
+    border:2px solid white;
+}
+
+#c1{
+    position: absolute;
+    background-color: white;
+    width:30px;
+    height:30px;
+    text-align: center;
+    border-radius: 30px;
+    left:-210px;
+}
+
+#c2{
+    position: absolute;
+    background-color: white;
+    width:30px;
+    height:30px;
+    text-align: center;
+    border-radius: 30px;
+    right:10px;
+}
+
+.box2{
+    width:800px;
+    height:250px;
+    flex-direction: row;
+}
+
+.b21{
+    width:150px;
+    height:190px;
+    margin-left: 72px;
+    margin-top: 20px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+.b22{
+   width:150px;
+    height:190px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom:0px;
+    text-align: center;  
+}
+
+.b23{
+    width:150px;
+    height:190px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+.b24{
+     width:150px;
+    height:190px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+#rocket{
+    width:40px;
+    height:40px;
+    border-radius: 40px;
+    background-color: white;
+    margin-left: 55px;
+    margin-top: 10px;
+    border: 2px  solid rgb(9, 181, 181);
+}
+
+#icon1{
+    width:60px;
+    height:15px;
+    color:white;
+    margin-left: 50px;
+    background-color:rgb(9, 181, 181) ;
+}
+.box3{
+    width:800px;
+    height:600px;
+    background-color: rgb(245, 241, 241);
+    flex-direction: column;
+}
+
+#b1{
+    text-align: center;
+    height:60px;
+    color:rgb(128, 130, 130)
+}
+
+#b2{
+    flex-direction: row;
+    width:800px;
+    height:200px;
+    margin-left: 80px;
+    margin-bottom: 18px;
+    
+}
+
+
+#b3{
+    flex-direction: row;
+    width:800px;
+    height:200px;
+    margin-left: 80px;
+    margin-right: 0px;
+    
+}
+
+#foot{
+    width:140px;
+    height:30px;
+    background-color: rgb(9, 181, 181);
+    color: white;
+    margin-left: 330px;
+    margin-top: 30px;
+}
