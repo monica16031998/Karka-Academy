@@ -1,0 +1,129 @@
+.container{
+    width:800px;
+    height:450px;
+    position: relative;
+    background-color: red;
+    margin:auto;
+    flex-direction: row;
+}
+
+.box1{
+    width:270px;
+    height:250px;
+    background-color: rgb(218, 70, 70);
+    margin-left:100px;
+    margin-top:100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.b11{
+    width:240px;
+    height:60px;
+    color:white;
+    text-indent: 15px;
+    flex-direction: row;
+}
+
+
+.b12{
+    width:240px;
+    height:180px;
+    color:white;
+    text-indent: 15px;
+    flex-direction: row;
+}
+#line{
+    margin:14px;
+    background-color:white;
+    width:2px;
+    height:34px;
+    margin-top: 15px;
+    writing-mode: vertical-lr;
+    margin-right: 0px;
+}
+
+#line1{
+    margin:44px;
+    background-color:white;
+    width:2px;
+    height:40px;
+    margin-top: 45px;
+    writing-mode: vertical-lr;
+    margin-right: 0px;
+    transform: rotate(90deg);
+}
+
+.letter{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: -38px;
+    color: black;
+    
+}
+.box2{
+    width:400px;
+    height:250px;
+    background-color: white;
+    margin-right:100px;
+    margin-top:100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    text-indent:40px ;
+}
+
+.b21{
+    flex-direction: row;
+    width:360px;
+    height:180px;
+}
+
+.b22{
+    flex-direction: row;
+    width:360px;
+    height:60px;
+    text-indent: 30px;
+}
+
+#line2{
+    margin:44px;
+    background-color:black;
+    width:2px;
+    height:40px;
+    margin-top: -10px;
+    writing-mode: vertical-lr;
+    margin-left: 60px;
+    transform: rotate(90deg);
+    /* margin-right: 60px; */
+}
+.invite{
+    margin-top: -25px;
+}
+#b3{
+    margin-left: -15px;
+}
+
+#b2{
+    margin-left: -15px;
+}
+
+#square1{
+    width:20px;
+    height:20px;
+    background-color: red;
+    position: absolute;
+    top:90px;
+    left:330px;
+    transform: rotate(45deg);
+}
+
+
+#square2{
+    width:20px;
+    height:20px;
+    background-color: red;
+    position: absolute;
+    top:340px;
+    left:330px;
+    transform: rotate(45deg);
+}
